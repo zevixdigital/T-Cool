@@ -73,7 +73,7 @@ export function HomeCategories() {
                   className="w-full bg-blue-600 text-white h-11"
                 >
                   <Link to={`/category/${category.slug}`} className="inline-flex items-center justify-center gap-2">
-                    View Products
+                    Book Now
                     <ChevronRight className="h-4 w-4" />
                   </Link>
                 </Button>

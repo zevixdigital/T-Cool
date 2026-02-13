@@ -37,7 +37,7 @@ const features = [
 
 export function HomeTrust() {
   // Add your background image path here
-  const backgroundImage = "./src/assets/air-conditioner-repair.jpg"; // Change this to your image path
+  const backgroundImage = "https://res.cloudinary.com/dadqwaqis/image/upload/v1771015758/air-conditioner-repair_qidmsw.jpg"; // Change this to your image path
 
   return (
     <section className="relative overflow-hidden py-16 lg:py-24">
