@@ -3,124 +3,126 @@ import { PageShell } from "@/components/site/PageShell";
 import { siteConfig } from "@/config/site";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, Phone, MessageCircle, MapPin } from "lucide-react";
+import { Mail, Phone, MessageCircle } from "lucide-react";
 
 export default function Contact() {
   return (
     <PageShell>
       <Seo
-        title={`Contact | ${siteConfig.name} Gurgaon`}
-        description="Contact Smart Eager for appliance rentals and repair service in Gurgaon. Fast response on WhatsApp."
+        title={`Contact | ${siteConfig.name}`}
+        description={`${siteConfig.name} - Contact us for AC rental and appliance repair services in Gurgaon. Fast WhatsApp support and quick response.`}
         path="/contact"
       />
 
-      <main>
-        <header className="relative overflow-hidden border-b">
-          <div className="container relative grid gap-8 py-12 md:py-16 lg:grid-cols-12 lg:items-end">
-            <div className="lg:col-span-7">
-              <p className="inline-flex items-center gap-2 rounded-full border bg-card px-3 py-1 text-sm text-muted-foreground">
-                <MapPin className="h-4 w-4" /> Gurgaon, Haryana
-              </p>
-              <h1 className="mt-4 text-balance text-4xl font-semibold tracking-tight md:text-5xl">Contact & Support</h1>
-              <p className="mt-3 max-w-2xl text-pretty text-muted-foreground md:text-lg">
-                Tell us what you need (rent or repair). We’ll reply with availability, pricing, and a suitable schedule.
-              </p>
-              <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-                <Button asChild size="lg">
-                  <a href={`https://wa.me/${siteConfig.whatsapp.phoneE164Digits}`} target="_blank" rel="noreferrer">
-                    WhatsApp Us
-                  </a>
-                </Button>
-                <Button asChild size="lg" variant="outline">
-                  <a href={`mailto:${siteConfig.contact.email}`}>
-                    Email
-                  </a>
-                </Button>
-              </div>
-            </div>
+      <main className="py-16">
 
-            <div className="lg:col-span-5">
-              <div className="rounded-xl border bg-card p-6">
-                <div className="text-sm font-semibold">Business hours</div>
-                <p className="mt-2 text-sm text-muted-foreground">Mon–Sun • 9:00 AM – 9:00 PM</p>
-                <div className="mt-5 grid gap-3 text-sm">
-                  <div className="flex items-center gap-3">
-                    <Phone className="h-4 w-4 text-muted-foreground" />
-                    <a className="font-medium hover:underline" href={`tel:${siteConfig.whatsapp.phoneE164Digits}`}>
-                      {siteConfig.contact.phoneDisplay}
-                    </a>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Mail className="h-4 w-4 text-muted-foreground" />
-                    <a className="font-medium hover:underline" href={`mailto:${siteConfig.contact.email}`}>
-                      {siteConfig.contact.email}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+        {/* Header */}
+        <section className="container text-center max-w-3xl">
+          <h1 className="text-4xl font-semibold tracking-tight">
+            Contact & Support
+          </h1>
+          <p className="mt-4 text-muted-foreground">
+            Need AC rental or repair service? Reach out to us for quick
+            availability, pricing, and scheduling.
+          </p>
 
-            <div aria-hidden className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-accent blur-3xl opacity-60" />
+          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+            <Button asChild size="lg">
+              <a
+                href="https://wa.me/919050357225"
+                target="_blank"
+                rel="noreferrer"
+              >
+                WhatsApp Us
+              </a>
+            </Button>
+
+            <Button asChild size="lg" variant="outline">
+              <a href="tel:+919050357225">
+                Call +91 90503 57225
+              </a>
+            </Button>
           </div>
-        </header>
+        </section>
 
-        <section className="container py-12 md:py-16">
-          <div className="grid gap-5 md:grid-cols-3">
-            <Card className="relative overflow-hidden">
+        {/* Contact Cards */}
+        <section className="container mt-14">
+          <div className="grid gap-6 md:grid-cols-3">
+
+            {/* WhatsApp */}
+            <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <MessageCircle className="h-5 w-5" /> WhatsApp
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-muted-foreground">Fastest way to book rentals and repairs.</p>
+                <p className="text-sm text-muted-foreground">
+                  Fastest way to book rentals and repair services.
+                </p>
                 <Button asChild className="mt-4 w-full">
-                  <a href={`https://wa.me/${siteConfig.whatsapp.phoneE164Digits}`} target="_blank" rel="noreferrer">
-                    Start chat
+                  <a
+                    href="https://wa.me/919050357225"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Start Chat
                   </a>
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="relative overflow-hidden">
+            {/* Phone */}
+            <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Phone className="h-5 w-5" /> Call
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-muted-foreground">Prefer a quick call? We’ll guide you.</p>
-                <Button asChild variant="outline" className="mt-4 w-full">
-                  <a href={`tel:${siteConfig.whatsapp.phoneE164Digits}`}>{siteConfig.contact.phoneDisplay}</a>
-                </Button>
+                <p className="text-sm text-muted-foreground">
+                  Speak directly with our support team.
+                </p>
+
+                <div className="mt-4 space-y-2">
+                  <a
+                    href="tel:+919050357225"
+                    className="block font-medium hover:underline"
+                  >
+                    +91 90503 57225
+                  </a>
+                  <a
+                    href="tel:+919813686975"
+                    className="block font-medium hover:underline"
+                  >
+                    +91 98136 86975
+                  </a>
+                </div>
               </CardContent>
             </Card>
 
-            <Card className="relative overflow-hidden">
+            {/* Email */}
+            <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Mail className="h-5 w-5" /> Email
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-muted-foreground">For invoices, documents, and details.</p>
+                <p className="text-sm text-muted-foreground">
+                  For invoices, documentation, and formal queries.
+                </p>
                 <Button asChild variant="outline" className="mt-4 w-full">
-                  <a href={`mailto:${siteConfig.contact.email}`}>{siteConfig.contact.email}</a>
+                  <a href={`mailto:${siteConfig.contact.email}`}>
+                    {siteConfig.contact.email}
+                  </a>
                 </Button>
               </CardContent>
             </Card>
-          </div>
 
-          <div className="mt-10 rounded-xl border bg-card p-6">
-            <div className="text-lg font-semibold">What to share on WhatsApp</div>
-            <ul className="mt-3 grid gap-2 text-sm text-muted-foreground md:grid-cols-2">
-              <li>Appliance type (AC/Heater/Geyser etc.)</li>
-              <li>Room size / capacity needed (for AC)</li>
-              <li>Exact location / sector in Gurgaon</li>
-              <li>Preferred delivery or visit date</li>
-            </ul>
           </div>
         </section>
+
       </main>
     </PageShell>
   );

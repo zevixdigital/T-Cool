@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-import { siteConfig } from "@/config/site";
 import { categories } from "@/data/catalog";
 import { Phone, MapPin } from "lucide-react";
-import Logo from "../../assets/TrueCool - Logo.png"
+import Logo from "../../assets/TrueCool - Logo.png";
 import * as React from "react";
 
 export const SiteFooter = React.forwardRef<
@@ -15,6 +14,7 @@ export const SiteFooter = React.forwardRef<
   return (
     <footer ref={ref} className={`bg-slate-900 ${className ?? ""}`} {...props}>
       <div className="container mx-auto px-4 py-12 lg:py-16">
+        
         {/* Top CTA Section */}
         <div className="mb-12 rounded-xl bg-slate-800 border border-slate-700 p-6 lg:p-8">
           <div className="grid md:grid-cols-2 gap-6 items-center">
@@ -28,9 +28,10 @@ export const SiteFooter = React.forwardRef<
             </div>
 
             <div className="flex flex-col sm:flex-row gap-3 md:justify-end">
-              {/* ✅ Fixed WhatsApp Button */}
+              
+              {/* WhatsApp Button */}
               <a
-                href={`https://wa.me/${siteConfig.whatsapp.phoneE164Digits}`}
+                href="https://wa.me/919050357225"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-green-600 px-6 font-semibold text-white hover:bg-green-700 transition-colors"
@@ -51,32 +52,40 @@ export const SiteFooter = React.forwardRef<
 
         {/* Main Footer Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          
           {/* Brand Column */}
           <div>
-          <Link to="/" className="inline-flex items-center gap-3 mb-4">
- <img
-  src={Logo}
-  alt="TrueCool AC Service"
-  className="h-28 w-auto object-contain"
-/>
-</Link> 
+            <Link to="/" className="inline-flex items-center gap-3 mb-4">
+              <img
+                src={Logo}
+                alt="TrueCool AC Service"
+                className="h-28 w-auto object-contain"
+              />
+            </Link>
 
             <p className="text-sm text-slate-400 leading-relaxed mb-6">
               Premium home appliances on rent with free installation &amp;
               maintenance. Trusted rental &amp; repair services in Gurgaon.
             </p>
 
-            <div className="space-y-2">
-              <div className="flex items-center gap-2 text-sm text-slate-400">
-                <MapPin className="h-4 w-4 text-blue-500" />
-                <span>Gurgaon, Haryana</span>
+            <div className="space-y-3">
+              <div className="flex items-start gap-2 text-sm text-slate-400">
+                <MapPin className="h-4 w-4 text-blue-500 mt-1" />
+                <span>
+                  Nirvana Country Road, B.Block, Pocket C, <br />
+                  Mayfield Garden, Sector 50, <br />
+                  Gurgaon – 122018, Haryana
+                </span>
               </div>
 
               <div className="flex items-center gap-2 text-sm text-slate-400">
                 <Phone className="h-4 w-4 text-blue-500" />
-                <span>
-                  +91 {siteConfig.whatsapp.phoneE164Digits.slice(2)}
-                </span>
+                <span>+91 90503 57225</span>
+              </div>
+
+              <div className="flex items-center gap-2 text-sm text-slate-400">
+                <Phone className="h-4 w-4 text-blue-500" />
+                <span>+91 98136 86975</span>
               </div>
             </div>
           </div>
@@ -162,10 +171,10 @@ export const SiteFooter = React.forwardRef<
         {/* Bottom Bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-slate-800">
           <p className="text-sm text-slate-500">
-            © {year} {siteConfig.name}. All rights reserved.
+            © {year} TrueCool AC Service. All rights reserved.
           </p>
           <p className="text-sm text-slate-500">
-            {siteConfig.location}
+            Gurgaon, Haryana, India
           </p>
         </div>
       </div>

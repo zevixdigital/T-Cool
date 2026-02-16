@@ -9,6 +9,7 @@ import { HomeCategories } from "@/components/home/HomeCategories";
 import { HomeTrust } from "@/components/home/HomeTrust";
 import { HomeTestimonials } from "@/components/home/HomeTestimonials";
 import { HomeFaq } from "@/components/home/HomeFaq";
+import HomeMap from "@/components/home/GoogleMap"
 
 const Index = () => {
   const faqs = [
@@ -77,6 +78,7 @@ const Index = () => {
         <HomeTrust />
         <HomeTestimonials />
         <HomeFaq faqs={faqs} />
+        <HomeMap />
       </main>
 
       <SiteFooter />
