@@ -73,7 +73,7 @@ const Index = () => {
       <SiteHeader />
 
       <main>
-        <HomeHero heroImage={heroImage} />
+        <HomeHero/>
         <HomeCategories />
         <HomeTrust />
         <HomeTestimonials />

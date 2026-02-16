@@ -187,23 +187,7 @@ export default function RentNowPage() {
                     )}
                   />
 
-                  <div className="rounded-lg border bg-card p-4">
-                    <div className="text-sm font-semibold">Telegram later?</div>
-                    <p className="mt-1 text-sm text-muted-foreground">
-                      Automatic Telegram sending requires a backend (to keep the bot token secure). For now you can copy the inquiry or open
-                      Telegram manually.
-                    </p>
-                    <div className="mt-3 flex flex-col gap-2 sm:flex-row">
-                      <Button type="button" variant="outline" onClick={copyToClipboard}>
-                        Copy Inquiry
-                      </Button>
-                      <Button asChild type="button" variant="outline">
-                        <a href={siteConfig.telegram.link} target="_blank" rel="noreferrer">
-                          Open Telegram
-                        </a>
-                      </Button>
-                    </div>
-                  </div>
+                  
                 </CardContent>
                 <CardFooter className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                   <Button type="submit" size="lg" className="w-full sm:w-auto">
@@ -225,10 +209,6 @@ export default function RentNowPage() {
               <pre className="mt-3 whitespace-pre-wrap rounded-md bg-muted/30 p-4 text-xs text-muted-foreground">
                 {inquiryPreview || "Fill the form to preview the inquiry message."}
               </pre>
-              <div className="mt-4 rounded-lg border bg-muted/30 p-4 text-xs text-muted-foreground">
-                <div className="font-medium text-foreground">Setup tip</div>
-                Update your WhatsApp number in <code>src/config/site.ts</code> → <code>phoneE164Digits</code>.
-              </div>
             </div>
           </div>
         </div>
