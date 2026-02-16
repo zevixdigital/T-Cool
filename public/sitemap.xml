@@ -1,141 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
   <url>
-    <loc>https://www.truecoolacservie.in/</loc>
-    <lastmod>2026-01-25</lastmod>
+    <loc>https://www.truecoolservice.com/</loc>
+    <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Main Pages -->
   <url>
-    <loc>https://www.truecoolacservie.in/pricing</loc>
-    <lastmod>2026-01-25</lastmod>
+    <loc>https://www.truecoolservice.com/pricing</loc>
+    <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+
   <url>
-    <loc>https://www.truecoolacservie.in/about</loc>
-    <lastmod>2026-01-25</lastmod>
+    <loc>https://www.truecoolservice.com/repair-service</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.truecoolservice.com/about</loc>
+    <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://www.truecoolacservie.in/contact</loc>
-    <lastmod>2026-01-25</lastmod>
+    <loc>https://www.truecoolservice.com/contact</loc>
+    <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Categories -->
   <url>
-    <loc>https://www.truecoolacservie.in/repair-service</loc>
-    <lastmod>2026-01-25</lastmod>
+    <loc>https://www.truecoolservice.com/category/window-ac</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.truecoolservice.com/category/split-ac</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.truecoolservice.com/category/oil-heater</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.truecoolservice.com/category/washing-machine</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.truecoolservice.com/category/geyser-repair</loc>
+    <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.truecoolacservie.in/category/window-ac</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.truecoolacservie.in/category/split-ac</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.truecoolacservie.in/category/oil-heater</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.truecoolacservie.in/category/washing-machine</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>https://www.truecoolacservie.in/product/window-ac-1t</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.truecoolservice.com/category/refrigerator-repair</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>https://www.truecoolacservie.in/product/window-ac-1-5t</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.truecoolservice.com/category/washing-machine-repair</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <!-- Legal Pages -->
   <url>
-    <loc>https://www.truecoolacservie.in/product/window-ac-2t</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.truecoolacservie.in/product/split-ac-1t</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.truecoolacservie.in/product/split-ac-1-5t</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.truecoolacservie.in/product/split-ac-2t</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.truecoolacservie.in/product/oil-heater-9-fin</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.truecoolacservie.in/product/oil-heater-11-fin</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.truecoolacservie.in/product/oil-heater-13-fin</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.truecoolacservie.in/product/semi-auto-washing-machine</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.truecoolacservie.in/privacy-policy</loc>
-    <lastmod>2026-01-25</lastmod>
+    <loc>https://www.truecoolservice.com/privacy-policy</loc>
+    <lastmod>2026-02-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
   <url>
-    <loc>https://www.truecoolacservie.in/terms</loc>
-    <lastmod>2026-01-25</lastmod>
+    <loc>https://www.truecoolservice.com/terms</loc>
+    <lastmod>2026-02-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
   <url>
-    <loc>https://www.truecoolacservie.in/disclaimer</loc>
-    <lastmod>2026-01-25</lastmod>
+    <loc>https://www.truecoolservice.com/disclaimer</loc>
+    <lastmod>2026-02-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
   <url>
-    <loc>https://www.truecoolacservie.in/return-policy</loc>
-    <lastmod>2026-01-25</lastmod>
+    <loc>https://www.truecoolservice.com/return-policy</loc>
+    <lastmod>2026-02-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
 </urlset>
