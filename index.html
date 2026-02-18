@@ -5,40 +5,79 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+<!-- ================= PRIMARY SEO ================= -->
+
 <title>AC on Rent in Gurgaon – Split & Window AC Rental | TrueCool Service</title>
 
 <meta name="description" content="Affordable AC on Rent in Gurgaon – Split & Window AC with Free Installation & Maintenance. 24–72 Hour Fast Delivery. Call Now: +91 90503 57225." />
 
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<meta name="author" content="TrueCool Service" />
+<meta name="theme-color" content="#0284c7" />
+
 <link rel="canonical" href="https://truecoolservice.com/" />
 
-<!-- Favicon -->
-<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<!-- ================= FAVICON ================= -->
+
+<link rel="icon" href="/favicon.ico" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/logo.png">
 
-<!-- Open Graph -->
+<!-- ================= OPEN GRAPH ================= -->
+
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://truecoolservice.com/" />
 <meta property="og:title" content="AC on Rent in Gurgaon | TrueCool Service" />
 <meta property="og:description" content="Split & Window AC Rental in Gurgaon with Free Installation & Maintenance. Same/Next Day Delivery Available." />
 <meta property="og:image" content="https://truecoolservice.com/og-image.jpg" />
+<meta property="og:site_name" content="TrueCool Service" />
+<meta property="og:locale" content="en_IN" />
 
-<!-- Twitter -->
+<!-- ================= TWITTER ================= -->
+
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="AC on Rent in Gurgaon | TrueCool Service" />
-<meta name="twitter:description" content="Affordable AC Rental & Repair in Gurgaon." />
+<meta name="twitter:description" content="Affordable AC Rental & Repair in Gurgaon. Free Installation Included." />
 <meta name="twitter:image" content="https://truecoolservice.com/og-image.jpg" />
 
-<!-- Structured Data -->
+<!-- ================= LOCAL GEO ================= -->
+
+<meta name="geo.region" content="IN-HR" />
+<meta name="geo.placename" content="Gurgaon, Haryana, India" />
+<meta name="geo.position" content="28.4595;77.0266" />
+<meta name="ICBM" content="28.4595, 77.0266" />
+
+<!-- ================= PERFORMANCE ================= -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- ================= STRUCTURED DATA ================= -->
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HVACBusiness",
+  "@id": "https://truecoolservice.com/",
   "name": "TrueCool Service",
   "url": "https://truecoolservice.com/",
   "logo": "https://truecoolservice.com/logo.png",
+  "image": "https://truecoolservice.com/og-image.jpg",
   "telephone": "+91 90503 57225",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91 90503 57225",
+      "contactType": "customer service",
+      "areaServed": "IN",
+      "availableLanguage": ["English","Hindi"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91 98136 86975",
+      "contactType": "customer service"
+    }
+  ],
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Nirvana Country Road, B Block, Pocket C, Mayfield Garden, Sector 50",
@@ -46,6 +85,24 @@
     "postalCode": "122018",
     "addressRegion": "Haryana",
     "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 28.4595,
+    "longitude": 77.0266
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"
+    ],
+    "opens": "08:00",
+    "closes": "20:00"
+  },
+  "priceRange": "₹₹",
+  "areaServed": {
+    "@type": "City",
+    "name": "Gurgaon"
   }
 }
 </script>
@@ -53,10 +110,12 @@
 </head>
 
 <body>
+
+  <!-- React Root -->
   <div id="root"></div>
 
-  <!-- Vite React Entry -->
+  <!-- Vite Entry -->
   <script type="module" src="/src/main.tsx"></script>
-</body>
 
+</body>
 </html>
