@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/sheet";
 import { Menu, Phone } from "lucide-react";
 
-import Logo from "../../assets/TrueCool - Logo.png";
+
 
 const navItems = [
   { to: "/", label: "Home" },
@@ -44,7 +44,7 @@ export function SiteHeader() {
         {/* ================= LOGO ================= */}
         <Link to="/" className="flex items-center h-full -ml-4 lg:-ml-6">
   <img
-    src={Logo}
+    src="https://res.cloudinary.com/dadqwaqis/image/upload/v1771416967/TrueCool_-_Logo_lhvlc1.png"
     alt="TrueCool – Appliance Rentals & Repair Services"
     className="
       block
@@ -129,7 +129,7 @@ export function SiteHeader() {
                       onClick={() => setIsOpen(false)}
                     >
                       <img
-                        src={Logo}
+                        src="https://res.cloudinary.com/dadqwaqis/image/upload/v1771416967/TrueCool_-_Logo_lhvlc1.png"
                         alt="TrueCool"
                         className="h-9 w-auto object-contain"
                       />

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { categories } from "@/data/catalog";
 import { Phone, MapPin } from "lucide-react";
-import Logo from "../../assets/TrueCool - Logo.png";
+
 import * as React from "react";
 
 export const SiteFooter = React.forwardRef<
@@ -57,7 +57,7 @@ export const SiteFooter = React.forwardRef<
           <div>
             <Link to="/" className="inline-flex items-center gap-3 mb-4">
               <img
-                src={Logo}
+                src="https://res.cloudinary.com/dadqwaqis/image/upload/v1771416967/TrueCool_-_Logo_lhvlc1.png"
                 alt="TrueCool AC Service"
                 className="h-28 w-auto object-contain"
               />
